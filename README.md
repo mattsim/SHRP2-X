@@ -25,12 +25,12 @@ Generally, the list of sentence for each annotation includes:
 
 We annotated roughly 3000 samples of the original dataset. Below, a table with a summarization of the dataset sizes
 
-![dataset stats](img/dataset-stats.png  "Dataset statistics")
+<img src="dataset-stats.png" alt="Dataset statistics" width="384"/>
 
 Furthermore, to give a glimpse of the content of the dataset, we are reporting the results of a clustering over the sentences composing the annotations.
 As we are interested in highlighting what happens in a given sentence, we replaced the instance-specific part of a sentence with placeholder, *eg*, replacing the actors (`SV`, `V2`, `V3`, `V4`) with `SBJ`, the direction (left, right) with `DIRECTION`.
 The result is the following:
 
-![dataset examples](img/dataset-centroids.png  "Dataset examples")
+<img src="dataset-centroids.png" alt="Dataset examples" width="568"/>
 
 
