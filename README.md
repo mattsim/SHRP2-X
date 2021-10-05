@@ -23,11 +23,13 @@ Generally, the list of sentence for each annotation includes:
 
 ### Annotations Statistics and Examples
 
-We annotated roughly 3000 samples of the original dataset. Below, a table with a summarization of the dataset sizes
+We annotated roughly 3000 samples of the original dataset, with a total of 17,647 sentences and 113,160 words.
+Hovever, as the number of verbs and noun describing the event on the roadway is limited, the total number of distinct words is fairly small, 576.
+Below, a table with some statistics on the dataset.
 
 <img src="dataset-stats.png" alt="Dataset statistics" width="384"/>
 
-Furthermore, to give a glimpse of the content of the dataset, we are reporting the results of a clustering over the sentences composing the annotations.
+To give a glimpse of the content of the dataset, we are reporting the results of a clustering over the sentences composing the annotations.
 As we are interested in highlighting what happens in a given sentence, we replaced the instance-specific part of a sentence with placeholder, *eg*, replacing the actors (`SV`, `V2`, `V3`, `V4`) with `SBJ`, the direction (left, right) with `DIRECTION`.
 The result is the following:
 
