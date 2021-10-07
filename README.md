@@ -47,7 +47,7 @@ V2 is ahead in the right adjacent lane. V2 begins to change lanes to the left. S
 #### Subject vehicle turn
 
 <img src="img/example-a-st2.png" alt="Dataset examples" />
-V2 is ahead in the right adjacent lane. V2 begins to change lanes to the left. SV has to brakes hard to avoid a collision with V2. Both vehicle continue traveling in now shared lane.
+SV is stopped at an intersection. SV begins to make a left turn. V2 approaches the intersection from the right. V2 turns left across SV's path. SV brakes hard to avoid hitting V2. SV completes the left turn. SV continues down the roadway.
 
 #### Subject vehicle loss of control
 
