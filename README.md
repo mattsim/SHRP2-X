@@ -35,4 +35,22 @@ The result is the following:
 
 <img src="dataset-centroids.png" alt="Dataset examples" width="568"/>
 
+#### Examples
+
+Below, some example of annotations you will find in the dataset
+
+<img src="example-nsl.png" alt="Dataset examples" width="479"/>
+
+V2 is ahead in the right adjacent lane. V2 begins to change lanes to the left. SV has to brakes hard to avoid a collision with V2. Both vehicle continue traveling in now shared lane.
+
+<img src="example-st2.png" alt="Dataset examples" width="479"/>
+
+V2 is ahead in the right adjacent lane. V2 begins to change lanes to the left. SV has to brakes hard to avoid a collision with V2. Both vehicle continue traveling in now shared lane.
+
+<img src="example-slc.png" alt="Dataset examples" width="479"/>
+
+SV approaches an intersection controlled by a stop sign. SV loses control of the vehicle. SV begins to slides forward. SV brakes. SV regains control of the vehicle. SV stops.
+
+
+
 
