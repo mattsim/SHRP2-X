@@ -37,7 +37,7 @@ The result is the following:
 
 ### Examples
 
-Below, some example of annotations you will find in the dataset. The sample images has been anonimized.
+Below, some example of annotations you will find in the dataset. The sample images have been anonimized.
 
 #### Other vehicle lane change
 
