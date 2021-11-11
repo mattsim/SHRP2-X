@@ -37,21 +37,18 @@ The result is the following:
 
 ### Examples
 
-Below, some example of annotations you will find in the dataset. The sample images have been anonimized.
+Below, some example of annotations you will find in the dataset. 
 
 #### Other vehicle lane change
 
-<img src="img/example-a-nsl.png" alt="Dataset examples" />
 V2 is ahead in the right adjacent lane. V2 begins to change lanes to the left. SV has to brakes hard to avoid a collision with V2. Both vehicle continue traveling in now shared lane.
 
 #### Subject vehicle turn
 
-<img src="img/example-a-st2.png" alt="Dataset examples" />
 SV is stopped at an intersection. SV begins to make a left turn. V2 approaches the intersection from the right. V2 turns left across SV's path. SV brakes hard to avoid hitting V2. SV completes the left turn. SV continues down the roadway.
 
 #### Subject vehicle loss of control
 
-<img src="img/example-a-slc.png" alt="Dataset examples" />
 SV approaches an intersection controlled by a stop sign. SV loses control of the vehicle. SV begins to slides forward. SV brakes. SV regains control of the vehicle. SV stops.
 
 
