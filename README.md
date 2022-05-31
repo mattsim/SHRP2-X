@@ -8,7 +8,7 @@ To get access to the dataset, please refer to the  [SHRP2 NDS website](https://w
 ### Annotations overview
 
 The SHRP2 dataset is a collection of more that 8800 safety-critical events, gathered by more than 3300 drivers between 2010 and 2013.
-The dataset comes with multiple videos recording the event from different angles, *eg*, front-facing, rear-facing and driving-facing.
+The dataset comes with multiple videos recording the event from different angles, *e.g.*, front-facing, rear-facing and driving-facing.
 We annotated a portion of those videos with a textual description considering only what was visible from the front facing camera, as it is the most common and widely used set up in many commercial scenarios.
 
 We annotated the sample of the dataset with a set of temporally ordered sentences, with a subject-predicate structure.
