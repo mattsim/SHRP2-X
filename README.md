@@ -13,13 +13,13 @@ We annotated a portion of those videos with a textual description considering on
 
 We annotated the sample of the dataset with a set of temporally ordered sentences, with a subject-predicate structure.
 The subject is generally the subject vehicle `SV`, other vehicles in the scenes (indicated with `V2`, `V3`, `V4`) or other actors, as pedestrian, bicycles, animal, objects).
-The predicate, instead, is composed by a single verb (*ie*, action) at present simple tense, followed by its dependents.
+The predicate, instead, is composed by a single verb (*i.e.*, action) at present simple tense, followed by its dependents.
 
 Generally, the list of sentence for each annotation includes:
-* one or more sentences describing the environment, *eg*,  the presence of an intersection or a stop sign, the presence and position of other relevant vehicles or actors in the scenes; 
-* one or more sentences describing the events or the maneuvers computed by the various subjects, *eg*, change of lanes, going through an intersection, traffic light change, loss of control of a vehicle;
-* one or more sentences describing the event itself or the reactions that the actors involved had with respect to it, *eg*, braking, steering in the adjacent lane; 
-* one or more sentences describing what happened after the event, *eg*, the actors continuing driving or remaining stopped.
+* one or more sentences describing the environment, *e.g.*,  the presence of an intersection or a stop sign, the presence and position of other relevant vehicles or actors in the scenes; 
+* one or more sentences describing the events or the maneuvers computed by the various subjects, *e.g.*, change of lanes, going through an intersection, traffic light change, loss of control of a vehicle;
+* one or more sentences describing the event itself or the reactions that the actors involved had with respect to it, *e.g.*, braking, steering in the adjacent lane; 
+* one or more sentences describing what happened after the event, *e.g.*, the actors continuing driving or remaining stopped.
 
 ### Annotations Statistics
 
@@ -30,7 +30,7 @@ Below, a table with some statistics on the dataset.
 <img src="img/dataset-stats.png" alt="Dataset statistics" width="384"/>
 
 To give a glimpse of the content of the dataset, we are reporting the results of a clustering over the sentences composing the annotations.
-As we are interested in highlighting what happens in a given sentence, we replaced the instance-specific part of a sentence with placeholder, *eg*, replacing the actors (`SV`, `V2`, `V3`, `V4`) with `SBJ`, the direction (left, right) with `DIRECTION`.
+As we are interested in highlighting what happens in a given sentence, we replaced the instance-specific part of a sentence with placeholder, *e.g.*, replacing the actors (`SV`, `V2`, `V3`, `V4`) with `SBJ`, the direction (left, right) with `DIRECTION`.
 The result is the following:
 
 <img src="img/dataset-centroids.png" alt="Dataset examples" width="568"/>
@@ -41,7 +41,7 @@ Below, some example of annotations you will find in the dataset.
 
 #### Other vehicle lane change
 
-V2 is ahead in the right adjacent lane. V2 begins to change lanes to the left. SV has to brakes hard to avoid a collision with V2. Both vehicle continue traveling in now shared lane.
+V2 is ahead in the right adjacent lane. V2 begins to change lanes to the left. SV has to brakes hard to avoid a collision with V2. Both vehicle continue traveling in the now shared lane.
 
 #### Subject vehicle turn
 
@@ -49,7 +49,7 @@ SV is stopped at an intersection. SV begins to make a left turn. V2 approaches t
 
 #### Subject vehicle loss of control
 
-SV approaches an intersection controlled by a stop sign. SV loses control of the vehicle. SV begins to slides forward. SV brakes. SV regains control of the vehicle. SV stops.
+SV approaches an intersection controlled by a stop sign. SV loses control of the vehicle. SV begins to slide forward. SV brakes. SV regains control of the vehicle. SV stops.
 
 
 
